@@ -1,3 +1,21 @@
-.pai h1+p {
-    color: red;
+.heading {
+    transition: all 300ms ease-in-out;
+}
+
+.heading:hover {
+    background-color: red;
+}
+
+a {
+    color: rgb(73, 226, 43);
+}
+
+a:visited {
+    color: firebrick;
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: 1px solid black;
 }
