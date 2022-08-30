@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: yellow;
+    height: 640px;
+}
+
+.flex-item {
+    background: red;
+    width: 33.33%;
+    color: #fff;
+}
